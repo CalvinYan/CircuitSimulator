@@ -23,13 +23,13 @@ public class Application extends JFrame {
 	private JPanel circuitBoard = new JPanel();
 	
 	// The collapsable menu containing wiring components
-	private JButton bottomMenu = new JButton("Placeholder for bottom menu");
+	private JButton bottomMenu = new JButton("");
 	
 	/*
 	 * The bar at the top containing various editing functionalities.
 	 * See TopToolBar.java for more.
 	 */
-	private JToolBar toolbar = new JToolBar();
+	private TopToolBar toolbar = new TopToolBar();
 
 	public static void main(String[] args) {
 		new Application().initWindow();
